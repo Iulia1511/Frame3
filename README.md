@@ -142,3 +142,7 @@
 ![image](https://github.com/user-attachments/assets/60d36b13-c062-4019-bd59-8db7fc752571)
 
 ![image](https://github.com/user-attachments/assets/61906e59-fed6-4d81-adf1-4aaecd55fe83)
+
+## №6. Работа с контроллерами и представлениями
+* Откройте контроллер TaskController (app/Http/Controllers/TaskController.php).
+*Обновите метод index для получения списка задач из базы данны

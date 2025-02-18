@@ -87,3 +87,58 @@
 
 ![image](https://github.com/user-attachments/assets/2a1f18fd-d8c5-4cc1-8dcc-a2b772fd7442)
 
+## №4. Связи между моделями
+* Добавьте отношения в модель Category (Категория может иметь много задач)
+
+![image](https://github.com/user-attachments/assets/2d6d0106-cee3-4e19-abc5-f7886dc4414b)
+
+* Добавьте отношения в модель Task
+
+![image](https://github.com/user-attachments/assets/76a3c51f-007b-4019-a834-b84092c4c035)
+
+* Добавьте отношения в модель Tag (Тег может быть прикреплен к многим задачам)
+
+![image](https://github.com/user-attachments/assets/0da00212-7a3b-4915-8da8-dc2fa5c5a894)
+
+## №5. Создание фабрик и сидов
+
+* Создайте фабрику для модели Category:
+
+![image](https://github.com/user-attachments/assets/eca3ffab-7ee8-4677-b099-c3a594738043)
+
+* Определите структуру данных для генерации категорий.
+
+![image](https://github.com/user-attachments/assets/4a56c8a9-1076-44cf-8964-65acf504b626)
+
+* Создайте фабрику для модели Task.
+
+![image](https://github.com/user-attachments/assets/1b97d8d0-0cd3-4af9-91d2-f5045fdec952)
+
+* Создайте фабрику для модели Tag.
+
+ ![image](https://github.com/user-attachments/assets/a26ccb06-8063-44d2-bd3e-c787062e5c51)
+
+* Создайте сиды (seeders) для заполнения таблиц начальными данными для моделей: Category, Task, Tag.
+#### Сидер для категории:
+
+  ![image](https://github.com/user-attachments/assets/4199d8e7-102b-4620-8ece-e11b7917b067)
+
+  ![image](https://github.com/user-attachments/assets/1fe80756-89e2-43db-aff0-3b240575ab06)
+
+#### Сидер для задач 
+
+![image](https://github.com/user-attachments/assets/179ab192-e449-4535-8143-1bcde8c18031)
+
+![image](https://github.com/user-attachments/assets/4fdaee76-90e2-47b7-907c-c6d20025c2e0)
+
+#### Сидер для тегов
+
+![image](https://github.com/user-attachments/assets/16599d02-04cf-4537-b508-853841e3f37f)
+
+![image](https://github.com/user-attachments/assets/c8afdbec-32c6-4486-b3b4-ee31b75aa395)
+
+* Обновите файл DatabaseSeeder для запуска сидов и запустите их: bash php artisan db:seed
+
+![image](https://github.com/user-attachments/assets/60d36b13-c062-4019-bd59-8db7fc752571)
+
+![image](https://github.com/user-attachments/assets/61906e59-fed6-4d81-adf1-4aaecd55fe83)

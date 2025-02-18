@@ -39,4 +39,16 @@
 
 ![image](https://github.com/user-attachments/assets/76554d48-c74a-4568-82cc-0ee27c2cc876)
 
+* Создайте модель Tag — тег задачи.
 
+![image](https://github.com/user-attachments/assets/d97268a0-490a-41ad-ba70-6d1f1ec2da3d)
+
+* Определение структуры таблицы tag в миграции:
+
+![image](https://github.com/user-attachments/assets/ccf51e4d-97e4-4ce7-a127-2a21c5cb95ae)
+
+* Добавьте поле $fillable в модели Task, Category и Tag для массового заполнения данных.
+
+![image](https://github.com/user-attachments/assets/3637e384-607b-41c5-903b-089a85a16a16)
+
+![image](https://github.com/user-attachments/assets/2815dfe4-69da-4acf-8c82-2215ca3ec1ee)

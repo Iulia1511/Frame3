@@ -145,4 +145,12 @@
 
 ## №6. Работа с контроллерами и представлениями
 * Откройте контроллер TaskController (app/Http/Controllers/TaskController.php).
-*Обновите метод index для получения списка задач из базы данны
+* Обновите метод index для получения списка задач из базы данны
+
+![image](https://github.com/user-attachments/assets/5c8cf186-eb65-4fbb-ae3e-fe4361c9adc4)
+
+* Обновите метод show для отображения отдельной задачи.
+
+![image](https://github.com/user-attachments/assets/4fe37f4d-e65a-452f-866e-7a98abc7a79f)
+
+### В методах index и show использован метод with (Eager Loading) для загрузки связанных моделей.
